@@ -3,6 +3,7 @@ import "./App.css";
 import OrderForm from "./components/OrderForm";
 import FrontPage from "./pages/FrontPage";
 import Navbar from "./components/Navbar";
+import Checkout from "./payments/Checkout";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <FrontPage />
       <OrderForm />
+      <Checkout />
     </div>
   );
 }
